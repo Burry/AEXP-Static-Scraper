@@ -38,7 +38,7 @@ def main():
             count_max = int(sys.argv[1])
         else:
             print_usage()
-            return()
+            return
     else:
         count_max = 300
     print(f'Searching for {count_max} cards on {domain}...')
