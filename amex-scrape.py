@@ -21,7 +21,7 @@ def is_number(s):
         return False
 
 def print_usage():
-    print('Usage:'
+    print('Usage:')
     print('  python amex-scrape.py')
     print('    - default: request 300 sequential card images')
     print('  python amex-scrape.py [count]')
